@@ -1,0 +1,33 @@
+body {
+    background-color:  rgb(140, 186, 247);
+}
+
+hr {
+    border-style: none none none;
+    /* border-style: none;
+    border-top-style: dotted; */
+    height: 0px;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.main-img {
+    width: 600px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
